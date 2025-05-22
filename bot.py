@@ -8,7 +8,7 @@ import logging
 
 # .env fayldan tokenni o'qish
 load_dotenv()
-BOT_TOKEN = os.getenv("8183554392:AAFRl2SImsZ8yQN-Wt-P9hRfu42vVNsccXo")  # <--- TO‘G‘RI USUL
+BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")  # <--- TO‘G‘RI USUL
 
 ADMIN_IDS = [7105959922, 1234567890]  # <-- O'z admin ID'ingizni kiriting
 
